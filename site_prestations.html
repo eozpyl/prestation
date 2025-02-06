@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestations de Services & Œnotourisme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://www.toptal.com/designers/subtlepatterns/uploads/marble-pattern.png');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #8B0000;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #8B0000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur mon site</h1>
+        <p>Contact : 06.83.89.54.08 | Email : puyolzoe@gmail.com | Gironde</p>
+        <nav>
+            <a href="#oenotourisme">Œnotourisme</a>
+            <a href="#services">Prestations de Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="oenotourisme">
+            <h2>Œnotourisme</h2>
+            <p>Je propose des visites guidées en français et en anglais des domaines viticoles.</p>
+            <p>Ateliers interactifs avec les moyens du domaine pour enrichir l’expérience des visiteurs.</p>
+            <img src="https://source.unsplash.com/800x400/?vineyard,wine" alt="Vignes et vin">
+        </section>
+
+        <section id="services">
+            <h2>Prestations de Services</h2>
+            <p>Ménage des chambres, recouche et préparation des petits-déjeuners et lunchs.</p>
+            <img src="https://source.unsplash.com/800x400/?luxury-bedroom" alt="Chambre de luxe">
+            <img src="https://source.unsplash.com/800x400/?brunch" alt="Petit déjeuner de luxe">
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <form>
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
